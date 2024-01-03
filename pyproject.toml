@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "visualize-db-data-with-prompts"
+version = "0.1.0"
+description = ""
+authors = ["kenta ozaki"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+langchain = "^0.0.353"
+pandas = "^2.1.4"
+plotly = "5.18.0"
+pydantic = "^2.5.3"
+python-dotenv = "^1.0.0"
+langchain-experimental = "^0.0.47"
+openai = "^1.6.1"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
